@@ -4,6 +4,11 @@ class StudentDetails {
         console.log("Student Name : " + this.name);
     }
 }
+class Student extends StudentDetails {
+    constructor() {
+        super();
+    }
+}
 
 // Create an object instance
-const student = new StudentDetails();
+const student = new Student();
